@@ -1,0 +1,74 @@
+/*标题区*/
+.gycp-tit{
+    text-align: center;
+    font-size: 20px;
+    color: #1AA0E8;
+    margin-top: 2rem;
+}
+.gycp-eng{
+    text-align: center;
+    font-size: 12px;
+    color: #AAAAAA;
+}
+.gycp-jie{
+    width: 96%;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 2rem;
+    text-align: center;
+}
+/*正文区*/
+.lxwm-tit{
+    font-size: 16px;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+.lxfs{
+    padding-left: 1rem;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 2rem;
+}
+/*表格区*/
+.biaoge{
+    width: 100%;
+    height: 50rem;
+    margin-top: 2rem;
+    background-color: #F7F7F7;
+}
+.biaoge-tit{
+    font-size: 16px;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+.smalltit{
+    display: block;
+    font-size: 12px;
+    padding-left: 1rem;
+    margin: 2rem 0;
+}
+.liuyan{
+    width: 94%;
+    margin-left: 3%;
+    height: 3rem;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    padding-left: 1rem;
+}
+.liuyanban{
+    margin-left: 3%;
+}
+.submit{
+    width: 94%;
+    margin-left: 3%;
+    height: 3rem;
+    border: none;
+    margin-top: 2rem;
+    color: white;
+    background-color: #1AA0E6;
+}
+.map{
+    width: 100%;
+    height: 29rem;
+    margin-top: 3rem;
+}

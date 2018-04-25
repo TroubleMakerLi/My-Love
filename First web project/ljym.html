@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>度假路线</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/glyphicons.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        .bb{
+            border-bottom:solid 1px silver;
+        }
+        .lanbai{
+            background-color: #048BCD;
+            color: white;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var xxk1=document.getElementsByClassName("xxk1");
+            var xxk2=document.getElementsByClassName("xxk2");
+            for(var a=0;a<4;a++){
+                xxk1[a].index=a;
+                xxk1[a].onclick=function(){
+                    for(var k=0;k<xxk2.length;k++){
+                        xxk1[k].className="xxk1 bb";
+                        xxk2[k].style.display="none";
+                    }
+                    this.className="xxk1";
+                    xxk2[this.index].style.display="block";
+                }
+            }
+            var wenda=document.getElementsByClassName("wenda");
+            for(var x=0;x<wenda.length;x++){
+               wenda[x].onclick=function(){
+                   for(i=0;i<wenda.length;i++){
+                       wenda[i].className="wenda"
+                   }
+                   this.className="wenda lanbai"
+               };
+            }
+        }
+    </script>
+</head>
+<body style="width: 100%;">
+<!--标题栏-->
+<div class="container-fluid" style="border-bottom: solid 1px blue">
+    <div class="title clearfix" style="width: 1200px; margin: 0 auto;">
+        <div class="pull-left chengshi" style="line-height: 40px"><a href="">上海</a>&nbsp;|&nbsp;<a href="">青岛</a>&nbsp;|&nbsp;<a
+                href="">武汉</a>&nbsp;|&nbsp;<a href="">北京</a></div>
+        <div class="pull-left list-unstyled" style="line-height: 40px;margin-left: 100px"><span><a class="denglu" href="javascript:void(0)">登陆</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<span><a class="zhuce" href="javascript:void(0)">注册</a></span></div>
+        <div class="pull-right">
+            <div class="pull-left" style="line-height: 40px;margin-right: 50px;font-size: 20px"><span><strong style="color: #6000ff">400-000-0000</strong></span></div>
+            <div class="titlesmall pull-left">
+                <a href="" class="weibo">
+                    <img class="img-responsive imgqian weibo1" src="./img/title/3ggg.png" alt=""/>
+                    <img class="img-responsive imgshen weibo2" src="./img/title/jwfi.png" alt=""/>
+                </a>
+            </div>
+            <div class="titlesmall pull-left">
+                <a href="" class="weixin">
+                    <img class="img-responsive imgqian weixin1" src="./img/title/8lno.png" alt=""/>
+                    <img class="img-responsive imgshen weixin2" src="./img/title/50jc.png" alt=""/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--导航栏-->
+<div class="container-fluid fixed" style="width: 100%;height: 100px;background-color: white;z-index: 20">
+    <div class="title clearfix" style="width: 1200px; height: 100px;margin: 0 auto;">
+        <div class="pull-left">
+            <div class="pull-left" style="width: 70px;height: 70px;margin-top: 10px">
+                <img class="img-responsive" src="img/titlename/location.png" alt=""/>
+            </div>
+            <div class="pull-left title_word">
+                <span class="titlename" style="font-size: 28px">高端旅游商城</span><br/>
+                <span class="titlename">HIGH END TOURIST MALL</span>
+            </div>
+            <div class="pull-left" style="margin-left: 160px">
+                <ul class="list-inline">
+                    <li class="text-center daohang"><a href="index.html" style="color: blue">首页</a></li>
+                    <li class="text-center daohang"><a href="dujialuxian.html">度假线路</a></li>
+                    <li class="text-center daohang"><a href="tejiajiudian.html">特价酒店</a></li>
+                    <li class="text-center daohang"><a href="miaoshatuangou.html">秒杀团购</a></li>
+                    <li class="text-center daohang"><a href="lvxingyouji.html">旅行游记</a></li>
+                    <li class="text-center daohang"><a href="sirendingzhi.html">私人订制</a></li>
+                    <li class="text-center daohang"><a href="guanyuwomen.html" >关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容区-->
+<div class="container-fluid">
+    <div style="width: 1200px;margin: 0 auto;height: 2000px">
+        <div style="width: 940px;height: 40px;float: left;background-color: #F9F9F9;margin-bottom: 30px">
+            <span style="width: 910px;height: 36px;margin: 2px 15px;display: block">
+                 <span><a href="">首页</a></span><span class="icon-binoculars" style="margin: 0 10px;font-size: 12px"></span><span><a href="">特价优惠</a></span><span class="icon-binoculars" style="margin: 0 10px;font-size: 12px"></span><span><a href="">度假路线</a></span><span class="icon-binoculars" style="margin: 0 10px;font-size: 12px"></span>
+                <span>[元旦]< 林芝-拉萨-羊卓雍湖-纳木错四飞9日游 >0购物0自费，林进拉出，拉萨四星，接送机，含去程成都四星住宿，安排一晚大峡谷江边酒店</span></span>
+        </div>
+        <div style="width: 230px;height: 400px;float: right;border: solid 1px silver">
+            <div style="width: 200px;height: 360px;float: right;text-align: center;margin: 20px 15px">
+                <span style="font-size: 16px">任何问题请拨打</span><br/><br/>
+                <span style="font-size: 24px;color: #564A94;font-weight: bold">400-000-0000</span><br/><br/>
+                <span>周一至周日 9:00-21:00 <br/>（仅收市话费）</span><br/><br/>
+                <img src="img/liym/qq_1.png" alt=""/><br/>
+                <img  style="width: 180px;height: 180px" src="img/liym/erweima.jpg" alt=""/>
+            </div>
+            <p style="line-height: 50px;text-align: center;font-size: 20px">特价路线</p>
+            <div style="width: 230px;height: 1400px;float: right">
+                <ul class="list-unstyled" style="width: 230px;height: 1400px">
+                    <li style="width: 230px;height: 260px">
+                        <img class="img-responsive" src="img/dujialuxian/20160621102933878.jpg" alt=""/>
+                        <a href="" style="margin-top: 10px;display:block">[元旦]林芝-拉萨-羊卓雍湖</a>
+                        <span style="font-size: 16px;font-weight: bold;color: #564A94;display: block;margin: 10px 0">￥：4800</span>
+                        <span style="font-size: 12px;color: #564A94">或许每个人都有个童话梦，向往着那美好的童话世界，在“树树秋声、山山寒</span>
+                    </li>
+                    <li style="width: 230px;height: 260px">
+                        <img class="img-responsive" src="img/dujialuxian/201606211029555185.jpg" alt=""/>
+                        <a href="" style="margin-top: 10px;display:block">[元旦]林芝-拉萨-羊卓雍湖</a>
+                        <span style="font-size: 16px;font-weight: bold;color: #564A94;display: block;margin: 10px 0">￥：4800</span>
+                        <span style="font-size: 12px;color: #564A94">或许每个人都有个童话梦，向往着那美好的童话世界，在“树树秋声、山山寒</span>
+                    </li>
+                    <li style="width: 230px;height: 260px">
+                        <img class="img-responsive" src="img/dujialuxian/201606211030031003.jpg" alt=""/>
+                        <a href="" style="margin-top: 10px;display:block">[元旦]林芝-拉萨-羊卓雍湖</a>
+                        <span style="font-size: 16px;font-weight: bold;color: #564A94;display: block;margin: 10px 0">￥：4800</span>
+                        <span style="font-size: 12px;color: #564A94">或许每个人都有个童话梦，向往着那美好的童话世界，在“树树秋声、山山寒</span>
+                    </li>
+                    <li style="width: 230px;height: 260px">
+                        <img class="img-responsive" src="img/dujialuxian/201606211030118393.jpg" alt=""/>
+                        <a href="" style="margin-top: 10px;display:block">[元旦]林芝-拉萨-羊卓雍湖</a>
+                        <span style="font-size: 16px;font-weight: bold;color: #564A94;display: block;margin: 10px 0">￥：4800</span>
+                        <span style="font-size: 12px;color: #564A94">或许每个人都有个童话梦，向往着那美好的童话世界，在“树树秋声、山山寒</span>
+                    </li>
+                    <li style="width: 230px;height: 260px">
+                        <img class="img-responsive" src="img/dujialuxian/201606211030176674.jpg" alt=""/>
+                        <a href="" style="margin-top: 10px;display:block">[元旦]林芝-拉萨-羊卓雍湖</a>
+                        <span style="font-size: 16px;font-weight: bold;color: #564A94;display: block;margin: 10px 0">￥：4800</span>
+                        <span style="font-size: 12px;color: #564A94">或许每个人都有个童话梦，向往着那美好的童话世界，在“树树秋声、山山寒</span>
+                    </li>
+                    <li style="width: 230px;height: 260px">
+                        <img class="img-responsive" src="img/dujialuxian/201606211030269701.jpg" alt=""/>
+                        <a href="" style="margin-top: 10px;display:block">[元旦]林芝-拉萨-羊卓雍湖</a>
+                        <span style="font-size: 16px;font-weight: bold;color: #564A94;display: block;margin: 10px 0">￥：4800</span>
+                        <span style="font-size: 12px;color: #564A94">或许每个人都有个童话梦，向往着那美好的童话世界，在“树树秋声、山山寒</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="width: 940px;height: 400px;float: left">
+            <div style="width: 500px;height: 300px;float: left">
+                <img class="img-responsive" src="img/dujialuxian/20160621102933878.jpg" alt=""/>
+            </div>
+            <div style="width: 400px;height: 400px;float: right">
+                <div style="width: 380px;height: 380px;margin: 10px">
+                    <span style="font-size: 19px;font-weight: bold">[元旦]< 林芝-拉萨-羊卓雍湖-纳木错四飞9日游 >0购物0自费，林进拉出，拉萨四星，接送机，含去程成都四星住宿，安排一晚大峡谷江边酒店</span>
+                    <hr/>
+                    <span>旅游地点 : 西藏</span><br/>
+                    <span>持续时间 : 1天以内,2-3天,4-7天,7-15天</span><br/>
+                    <span>优惠活动 : 买二送一,好评返现</span><br/>
+                    <span>优惠价:</span><span style="font-size: 30px;color:#e11a4a;font-weight: bold">￥3800.00</span><br/>
+                    <span>原价：</span><span style="text-decoration: line-through">￥6800.00</span>
+                    <hr/>
+                    <span style="width: 150px;height: 50px;background-color: #564A94;line-height: 50px;display: block;cursor: pointer">
+                        <span class="icon-shopping-cart" style="color: white;font-size: 20px;display: inline-block;margin: 0 20px;float: left"></span><span style="color: white;font-size: 16px">立即订购</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--选项卡-->
+        <div style="width: 940px;height: 1900px;float: left;border: solid 1px silver">
+            <div style="width: 940px;height: 50px;">
+                <ul class="list-unstyled" style="width: 940px;height: 50px;">
+                    <li class="xxk1" style="float: left;height: 50px;width: 100px;line-height: 50px;text-align: center;border-right:solid 1px silver;cursor: pointer">行程介绍</li>
+                    <li class="xxk1 bb" style="float: left;height: 50px;width: 100px;line-height: 50px;text-align: center;border-right:solid 1px silver;cursor: pointer">购买评论</li>
+                    <li class="xxk1 bb" style="float: left;height: 50px;width: 100px;line-height: 50px;text-align: center;border-right:solid 1px silver;cursor: pointer">顾客评论</li>
+                    <li class="xxk1 bb" style="float: left;height: 50px;width: 100px;line-height: 50px;text-align: center;border-right:solid 1px silver;cursor: pointer">买家问答</li>
+                    <li style="float: left;height: 50px;width: 540px;line-height: 50px;text-align: center;border-bottom: solid 1px silver;cursor: pointer"></li>
+                </ul>
+            </div>
+            <div class="xxk2" style="width: 940px;height: 1800px;position: absolute;display: block">
+                <div style="width: 920px;height: 1700px;margin: 10px;position: absolute;">
+                    <span style="display: block;margin: 30px 0;font-size: 20px;font-weight: bold">行程概述</span>
+                    <span style="font-size: 16px">或许每个人都有个童话梦，向往着那美好的童话世界，在“树树秋声、山山寒色”的深秋里，有一个地方，那里一定能让你圆了这个童话梦，那就是静谧梦幻的腾冲江东古银杏村。这里，是天堂的后花园，你可以尽情地在天堂里撒欢，让灵魂在金黄之间自由飘逸，为那一树树灿若黄金的奇特景观叹服！</span>
+                    <hr/>
+                    <span style="width: 800px;display: block;margin: 0 auto;text-align: center;font-size: 16px;line-height: 30px">从阳光明媚的春天，到浓妆艳抹的金秋，新西兰四季都是旅游者的天堂 <br/>
+                           “蓝天、白云、绿草”是这个国家较吸引人的地方，满眼的绿色，触手可及的朵朵白云，仿佛置身在童话的国度 <br/>
+                           在海上、在山间从事着较朴素、较刺激、较趣味的游乐，人和自然亲密地交融，感受大自然的恩赐
+                    </span>
+                    <hr style="width: 30%"/>
+                    <span style="width: 600px;display: block;margin: 0 auto 20px;text-align: center;font-size: 16px;line-height: 30px">规划假日较难的一步，就是决定应该首先去体验哪一种精彩！ <br/>
+                           如果冒险是你的玩乐重点，这里能够让你血脉喷张的刺激活动可就多了 <br/>
+                           要是倾向于休闲假日，温泉、葡萄园和文化景点就正对你的胃口
+                    </span>
+                    <img style="width: 920px" src="img/liym/14759913399359877.jpg" alt=""/>
+                    <p style="font-size: 20px;font-weight: bold;text-align: center;line-height: 30px;margin-top: 20px">1</p>
+                    <p style="font-size: 20px;font-weight: bold;text-align: center;line-height: 30px">DAY</p>
+                    <p style="text-align: center;font-size: 16px;line-height: 36px"> 始发地 - 奥克兰 - 基督城 <br/>
+                        今日搭乘国际航班由【香港】前往【奥克兰】，夜宿飞机上，陶醉于机上的佳肴、美酒、在强档电影的服务中，进入梦乡，班机于<br/>
+                        隔日上午抵达奥克兰后经国内航班飞抵【基督城】。由专车接机至酒店稍事休息后开启新西兰南岛纯净之旅。
+                    </p>
+                    <hr style="width: 30%"/>
+                    <p style="text-align: center;font-size: 16px;line-height: 36px">
+                        基督城植物园                 Botanic Garden <br/>
+                        在这里可以探索各个温室和主题花园，惬意地躺在草地上伸展四肢 <br/>
+                        雅芳河             Avon River <br/>
+                        贯穿全城的基督城母亲河，继承英式的古典浪漫，又不乏清新优雅
+                    </p>
+                    <img style="width: 920px" src="img/liym/14727084907688993.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="xxk2" style="width: 940px;height: 200px;position: absolute;display: none">
+                <div style="width: 940px;height: 100px">
+                    <div style="width: 900px;height: 40px;background-color: #FAFAFA;margin: 20px">
+                        <ul class="list-unstyled" style="width: 900px;height: 40px">
+                            <li style="width: 140px;height: 40px;line-height: 40px;font-size: 14px;text-align: center;float:left ">购买人</li>
+                            <li style="width: 140px;height: 40px;line-height: 40px;font-size: 14px;text-align: center;float:left ">会员级别</li>
+                            <li style="width: 140px;height: 40px;line-height: 40px;font-size: 14px;text-align: center;float:left ">数量</li>
+                            <li style="width: 140px;height: 40px;line-height: 40px;font-size: 14px;text-align: center;float:left ">属性</li>
+                            <li style="width: 340px;height: 40px;line-height: 40px;font-size: 14px;text-align: center;float:left ">购买时间</li>
+                        </ul>
+                        <span class="pull-right">总计 0 条记录</span>
+                    </div>
+                </div>
+            </div>
+            <div class="xxk2" style="width: 940px;height: 1700px;position: absolute;display: none">
+                <div style="width: 940px;height: 260px">
+                    <div style="width: 900px;height: 160px;margin: 20px">
+                        <span style="color: silver;font-size: 18px;line-height: 30px">商品满意度：</span>
+                        <img src="img/liym/sitestar_productdetails_star_image.png" alt=""/>
+                        <img src="img/liym/sitestar_productdetails_star_image.png" alt=""/>
+                        <img src="img/liym/sitestar_productdetails_star_image.png" alt=""/>
+                        <img src="img/liym/sitestar_productdetails_star_image.png" alt=""/>
+                        <img src="img/liym/sitestar_productdetails_star_image.png" alt=""/>
+                        <hr/>
+                        <span style="font-size: 12px">暂无评价信息</span>
+                    </div>
+                </div>
+            </div>
+            <div class="xxk2" style="width: 940px;height: 1700px;position: absolute;display: none">
+                <div style="width: 940px;height: 260px">
+                    <div style="width: 900px;height: 160px;margin: 20px">
+                        <ul class="list-unstyled" style="width: 900px;height: 20px;margin-top: 30px">
+                            <li class="wenda lanbai" style="cursor: pointer;width: 60px;height: 20px;float: left;text-align: center;border-right: solid 1px silver">留言</li>
+                            <li class="wenda" style="cursor: pointer;width: 60px;height: 20px;float: left;text-align: center;border-right: solid 1px silver">投诉</li>
+                            <li class="wenda" style="cursor: pointer;width: 60px;height: 20px;float: left;text-align: center;border-right: solid 1px silver">询问</li>
+                            <li class="wenda" style="cursor: pointer;width: 60px;height: 20px;float: left;text-align: center;border-right: solid 1px silver">售后</li>
+                        </ul>
+                        <textarea name="" id="" cols="100" rows="3" style="float: left"></textarea>
+                        <span style="width: 90px;height: 66px;background-color: #048BCD;display: inline-block;margin-left: 30px;line-height: 66px;color: white;font-size: 16px;cursor: pointer"><img style="margin:0 15px" src="img/liym/sitestar_productdetails_put_questions_to.png" alt=""/>提交</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部信息栏-->
+<div class="container-fluid" style="width: 100%;height:420px;background-color: #222222">
+    <div style="width: 1200px;margin: 0 auto">
+        <div class="xinxi">
+            <ul class="list-unstyled">
+                <li style="margin: 20px 0"><span  style="font-size: 20px;color: white">关于我们</span></li>
+                <li><span><a href="">公司荣誉</a></span></li>
+                <li><span><a href="">公司介绍</a></span></li>
+                <li><span><a href="">办公环境</a></span></li>
+                <li><span><a href="">联系我们</a></span></li>
+            </ul>
+        </div>
+        <div class="xinxi">
+            <ul class="list-unstyled">
+                <li style="margin: 20px 0"><span  style="font-size: 20px;color: white">客户服务</span></li>
+                <li><span><a href="">签证协议</a></span></li>
+                <li><span><a href="">旅游保险</a></span></li>
+                <li><span><a href="">评价回访</a></span></li>
+                <li><span><a href="">问题咨询</a></span></li>
+            </ul>
+        </div>
+        <div class="xinxi">
+            <ul class="list-unstyled">
+                <li style="margin: 20px 0"><span  style="font-size: 20px;color: white">预订须知</span></li>
+                <li><span><a href="">客户协议</a></span></li>
+                <li><span><a href="">隐私条例</a></span></li>
+                <li><span><a href="">取消和修改条例</a></span></li>
+                <li><span><a href="">信用卡支付</a></span></li>
+            </ul>
+        </div>
+        <div class="xinxi">
+            <ul class="list-unstyled">
+                <li style="margin: 20px 0"><span  style="font-size: 20px;color: white">出行相关</span></li>
+                <li><span><a href="">出行指南</a></span></li>
+                <li><span><a href="">目的地指南</a></span></li>
+                <li><span><a href="">所有景点</a></span></li>
+            </ul>
+        </div>
+        <div class="xinxi">
+            <ul class="list-unstyled">
+                <li style="margin: 20px 0"><span  style="font-size: 20px;color: white">新手入门</span></li>
+                <li><span><a href="">预定指南</a></span></li>
+                <li><span><a href="">服务中心</a></span></li>
+                <li><span><a href="">旅游咨询</a></span></li>
+                <li><span><a href="">会员积分</a></span></li>
+            </ul>
+        </div>
+        <div style="width: 340px;height: 300px;float: left;margin-left: 40px">
+            <img class="pull-left" src="img/bottom/gzgm.png" alt="" style="margin: 30px 30px 0"/>
+            <span class="pull-left" style="color: white;font-size: 30px;margin-top: 24px;display: block"><strong>400-000-000</strong></span>
+            <img style="width: 100px;height: 100px;float: left;margin-left: 30px;margin-top: 10px" src="img/bottom/erweima%20(1).jpg" alt=""/>
+            <img style="width: 100px;height: 100px;float: left;margin-left: 30px;margin-top: 10px" src="img/bottom/erweima.jpg" alt=""/>
+        </div>
+        <div style="margin:10px 0 30px;color: white;text-align: center"><p>moumou旅游网创立于2006年10月，并于2014年5 月在纳斯达克成功上市。已在北京、上海、深圳等城市设立了近百个区域服务中心，提供全年365天24小时400电话预订服务。</p></div>
+        <div>
+            <ul class="list-unstyled">
+                <li class="tubiao"><a href=""><img src="img/bottom/zj05_ltxd.png" alt=""/></a></li>
+                <li class="tubiao"><a href=""><img src="img/bottom/zj07_ur05.png" alt=""/></a></li>
+                <li class="tubiao"><a href=""><img src="img/bottom/zj09_zjyh.png" alt=""/></a></li>
+                <li class="tubiao"><a href=""><img src="img/bottom/zj11_7ba2.png" alt=""/></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--侧边导航栏-->
+<div style="position: fixed;right: 0;top: 0;width: 42px;height:100%;background-color: #564A94;z-index: 3">
+    <ul class="list-unstyled cebianlan" style="margin-top: 200px">
+        <li>
+            <a href="index.html"><img src="img/cebanlan/p1.png" alt="" style="margin: 15px 10px 0"/>
+                <span style="color: white;line-height: 48px;text-align: center;display: block;font-size: 12px">主页</span>
+            </a>
+        </li>
+        <li class="huiyuan" style="cursor: pointer">
+            <img src="img/cebanlan/p2.png" alt="" style="margin: 15px 10px 0"/>
+            <span style="color: white;line-height: 48px;text-align: center;display: block;font-size: 12px">会员</span>
+        </li>
+        <li class="kefu" style="cursor: pointer">
+            <img src="img/cebanlan/p3.png" alt="" style="margin: 15px 10px 0"/>
+            <span style="color: white;line-height: 48px;text-align: center;display: block;font-size: 12px">客服</span>
+        </li>
+        <li>
+            <a href="bangzhuzhongxin.html"><img src="img/cebanlan/p4.png" alt="" style="margin: 15px 10px 0"/>
+                <span style="color: white;line-height: 48px;text-align: center;display: block;font-size: 12px">帮助</span>
+            </a>
+        </li>
+        <li>
+            <a href="gouwuche.html"><img src="img/cebanlan/p6.png" alt="" style="margin: 15px 10px 0"/>
+                <span style="color: white;line-height: 48px;text-align: center;display: block;font-size: 12px">购物车</span>
+            </a>
+        </li>
+    </ul>
+    <span class="erweima" style="width: 42px;height: 42px;display:block;margin-top: 210px;position: relative"><a href=""><img style="margin: 11px" src="img/cebanlan/m_view_qr.png" alt=""/></a></span>
+    <div class="top" style="width: 42px;height: 42px;text-align: center;line-height: 21px;color: white;margin-top: 20px;cursor: pointer"><span>^</span><br/><span>TOP</span></div>
+    <div class="sys" style="width: 110px;height: 130px;position: absolute;bottom: 78px;right: 42px;background-color: white;display: none">
+        <img src="img/cebanlan/m_view_qr_h.jpg" alt="" style="margin: 10px"/>
+        <p style="text-align: center;font-size: 12px">手机扫一扫</p>
+    </div>
+</div>
+<!--点击会员弹出的页面-->
+<div class="huiyuanc" style="display: none;width: 100%;height: 1000px;background-color: rgba(0, 0, 0, 0.51);position: fixed;left: 0;top: 0;">
+    <div style="width: 300px;height: 330px;margin:15% auto 0;background-color: #E8E9EA;border-radius: 10px;position: relative">
+        <span class="hyclose" style=" font-size: 40px;position: absolute;left:310px;color: white;cursor: pointer">&times;</span>
+        <span style="font-size: 24px;color: #EB6100;text-align: center;display: block;padding-top: 30px">欢迎登录</span>
+        <input type="text" style="width: 200px;height: 35px;line-height: 35px;margin: 10px 50px 0;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="电子邮箱"/>
+        <input type="password" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="密码"/>
+        <input type="checkbox" style="width: 22px;height: 22px;float: left;margin-left: 82px"/><span style="line-height: 22px;font-size: 16px;display: inline-block;margin: 4px 20px 0">下次自动登录</span>
+        <input type="button" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px 20px;border: none;outline: none;font-size: 20px;border-radius: 4px;color: white;background-color: #EB6100" value="登  录"/>
+        <span style="font-size: 16px;color: #EB6100;text-align: center;display: block;"><a class="yhzc" href="javascript:void(0)">用户注册</a></span>
+    </div>
+</div>
+<!--客户服务界面-->
+<div class="kefukuang" style="width: 240px;height:980px;background-color: white;position: fixed;right: -240px;top: 0px;z-index: 2">
+    <div style="width: 160px;height: 980px;margin: 40px">
+        <p style="height: 25px;line-height: 25px;margin-top: 360px"><img class="pull-left" src="img/cebanlan/icon_view_tel.png" alt=""/><span class="pull-left" style="font-size: 18px;font-weight: bold;color: #A2A39E;margin-left: 20px">客服热线:</span></p>
+        <span style="display: block;font-size: 20px">400-000-0000</span><span style="font-size: 12px">服务时间:[09:00-17:00]</span><br/>
+        <div style="border: solid 1px silver;width: 122px;margin-top: 20px"></div>
+        <div style="width: 134px;height: 30px;background-color: #564A94;margin-top: 30px"><a href=""><img style="width: 40px;height: 30px" src="img/cebanlan/untitled.png" alt=""/><span style="display: inline-block;margin-left: 20px;color: white">在线咨询</span></a></div>
+    </div>
+</div>
+<!--注册界面-->
+<div class="zhuceyemian" style="display: none;width: 100%;height: 1000px;background-color: rgba(0, 0, 0, 0.51);position: fixed;left: 0;top: 0;">
+    <div style="width: 300px;height: 530px;margin:15% auto 0;background-color: #E8E9EA;border-radius: 10px;position: relative">
+        <span class="zcclose" style=" font-size: 40px;position: absolute;left:310px;color: white;cursor: pointer">&times;</span>
+        <span style="font-size: 24px;color: #EB6100;text-align: center;display: block;padding-top: 30px">注册会员</span>
+        <input type="text" style="width: 200px;height: 35px;line-height: 35px;margin: 10px 50px 0;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="*电子邮箱"/>
+        <input type="password" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px 0;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="*密码"/>
+        <input type="password" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px 0;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="*确认密码"/>
+        <input type="password" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px 0;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="姓名"/>
+        <input type="password" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px 0;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="邮箱"/>
+        <input type="password" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px 0;border: none;outline: none;padding-left: 20px;border-radius: 4px" placeholder="手机"/>
+        <p style="margin-top: 20px"><input type="checkbox" style="width: 20px;height: 20px;float: left;margin-left: 68px"/><span style="display: inline-block;margin-left: 30px;height: 20px;line-height: 20px;float: left;font-size: 18px;padding-top: 3px">男</span><input type="checkbox" style="width: 20px;height: 20px;float: left;margin-left: 30px"/><span style="display: inline-block;margin-left: 30px;height: 20px;line-height: 20px;float: left;font-size: 18px;padding-top: 3px">女</span></p>
+        <input type="button" style="width: 200px;height: 35px;line-height: 35px;margin: 20px 50px 20px;border: none;outline: none;font-size: 20px;border-radius: 4px;color: white;background-color: #EB6100" value="立即注册"/>
+    </div>
+</div>
+</body>
+</html>

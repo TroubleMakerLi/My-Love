@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>手机首页界面</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/glyphicons.css"/>
+    <link rel="stylesheet" href="css/tongyong.css"/>
+    <link rel="stylesheet" href="css/shouye.css"/>
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/tongyong.js"></script>
+    <script src="js/shouye.js"></script>
+    </head>
+<body>
+<!--顶部-->
+<div class="container-fluid titlename">欢迎来到某某国际贸易综合服务公司</div>
+<!--logo区域-->
+<div class="container-fluid title">
+    <img class="pull-left titleimg" src="img/title/logo.png" alt=""/>
+    <div class="pull-right menu"><span class="icon-justify tubiao"></span></div>
+</div>
+<!--点击菜单产生的ul-->
+<div class="container-fluid">
+    <ul class="list-unstyled menuul">
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="guanyuwomen.html">关于我们</a></li>
+        <li><a href="gongyinchanpin.html">供应产品</a></li>
+        <li><a href="xinwenzhongxin.html">新闻中心</a></li>
+        <li><a href="yewufanwei.html">业务范围</a></li>
+        <li><a href="lianxiwomen.html">联系我们</a></li>
+    </ul>
+</div>
+<!--banner滚动区-->
+<div class="container-fluid bannertu">
+    <ul class="list-unstyled banner">
+        <li><img class="banner_img" src="img/banner/xbn.jpg" alt=""/></li>
+        <li><img class="banner_img" src="img/banner/xbn2.jpg" alt=""/></li>
+        <li><img class="banner_img" src="img/banner/xbn.jpg" alt=""/></li>
+    </ul>
+    <div class="xuanfuzi">
+        <p><strong class="banner_str">为您提供诚信优质贸易服务</strong></p>
+        <span class="banner_small">公司具有国际贸易、国际工程承包、招标代理、展览广告等多种业务的甲级经营资质</span>
+    </div>
+</div>
+<!--业务范围-->
+<div class="container-fluid">
+    <p class="topzi">业务范围</p>
+    <p class="english"><small>Business scope</small></p>
+    <p class="yw_jieshao">公司业务范围涉及国际贸易、海外工程、防务电子、船舶业务、招标业务、展览广告及现代物流等多个领域</p>
+    <ul class="list-unstyled yw_ul">
+        <a href="yewufanwei.html"><li><img class="yw-img" src="img/yewu/p7b0.png" alt=""/><p class="yw-p">海外工程</p></li></a>
+        <a href="yewufanwei.html"><li style="margin: 0 2%"><img class="yw-img" src="img/yewu/qfn8.png" alt=""/><p class="yw-p">船舶业务</p></li></a>
+        <a href="yewufanwei.html"><li><img class="yw-img" src="img/yewu/u0f4.png" alt=""/><p class="yw-p">国际贸易</p></li></a>
+    </ul>
+    <p class="yw-more"><a href="yewufanwei.html">更多业务 > ></a></p>
+</div>
+<!--关于我们-->
+<div class="container-fluid gywm">
+    <p class="gywm-t">关于我们</p>
+    <div class="gywm-xhx"></div>
+    <p class="gywm-eng">About us</p>
+    <div class="blueb pull-right"></div>
+    <div class="gywm-tupian">
+        <a href="guanyuwomen.html"><img class="pull-left gywm-img" src="img/guanyuowmen/AD0Ivt28BRACGAAgp8L3vwUorrLnpgEw7QM4vQM.jpg" alt=""/></a>
+    </div>
+    <p class="gywm-jieshao">公司具有国际贸易、国际工程承包、招标代理、展览广告等多种业务的甲级经营资质。截至2009年底，公司总资产达142.56亿元人民币，实现销售收入142.45亿元人民币，业务范围涉及国际贸易、海外工程、防务电子、船舶业务、招标业务、展览广告及现代物流等多个领域。<br/>
+        我们的供应商网络覆盖长三角地区各市县，并逐步向外拓展，目前与超过3500家各类供应商保持着稳定的良好合作关系。
+    </p>
+    <p class="gywm-more"><a href="guanyuwomen.html">查看详情 > ></a></p>
+</div>
+<!--供应产品-->
+<div class="container-fluid gycp">
+    <p class="gycp-tit">供应产品</p>
+    <p class="gycp-eng">Products</p>
+    <p class="gycp-jie">公司业务范围涉及国际贸易、海外工程、防务电子、船舶业务、招标业务、展览广告及现代物流等多个领域</p>
+    <script>
+        window.onload= function () {
+            data=[
+                {"src":"img/gongyingchanpin/zc01.jpg","num":"HL-672","name":"轴承汽配","price":"￥70.00"},
+                {"src":"img/gongyingchanpin/zc02 (1).jpg","num":"HL-672","name":"轴承汽配","price":"￥50.00"},
+                {"src":"img/gongyingchanpin/zc02.jpg","num":"HL-672","name":"轴承汽配","price":"￥60.00"},
+                {"src":"img/gongyingchanpin/zc03.jpg","num":"HL-672","name":"轴承汽配","price":"￥130.00"},
+                {"src":"img/gongyingchanpin/zc04.jpg","num":"HL-672","name":"轴承汽配","price":"￥20.00"},
+                {"src":"img/gongyingchanpin/zc05.jpg","num":"HL-672","name":"轴承汽配","price":"￥90.00"},
+                {"src":"img/gongyingchanpin/zc06.jpg","num":"HL-672","name":"轴承汽配","price":"￥40.00"},
+                {"src":"img/gongyingchanpin/zc01.jpg","num":"HL-672","name":"轴承汽配","price":"￥80.00"}
+            ];
+            for(index in data){
+                var block=document.getElementsByClassName("gycp")[0];
+                /*创建div内容栏*/
+                var div=document.createElement("div");
+                div.className="gywm-div";
+                /*img*/
+                var imga=document.createElement("a");
+                var img=document.createElement("img");
+                imga.setAttribute("href","chanpinitem.html");
+                img.src=data[index].src;
+                img.className="gycp-img";
+                imga.appendChild(img);
+                div.appendChild(imga);
+                /*a链接产品编号*/
+                var a=document.createElement("a");
+                a.setAttribute("href","chanpinitem.html");
+                div.appendChild(a);
+                var strong=document.createElement("strong");
+                strong.className="gycp-black";
+                strong.innerHTML=data[index].num;
+                a.appendChild(strong);
+                /*产品名称*/
+                var namea=document.createElement("a");
+                namea.setAttribute("href","chanpinitem.html");
+                namea.className="gycp-blue";
+                namea.innerHTML=data[index].name;
+                div.appendChild(namea);
+                /*产品价格*/
+                var pricel=document.createElement("span");
+                pricel.innerHTML="价格：";
+                pricel.className="gycp-price";
+                div.appendChild(pricel);
+                var pricer=document.createElement("span");
+                pricer.innerHTML=data[index].price;
+                pricer.className="red";
+                div.appendChild(pricer);
+                /*动态绑定到页面上*/
+                block.appendChild(div);
+            }
+        }
+    </script>
+</div>
+<!--联系我们-->
+<div class="container-fluid connect">
+<p class="connect-tit">自信源于我们对质量的一贯苛求</p>
+<p class="connect-jie">公司具有国际贸易、国际工程承包、招标代理、展览广告等多种业务的甲级经营资质。截至2009年底，公司总资产达142.56亿元人民币，实现销售收 入142.45亿元人民币，业务范围涉及国际贸易、海外工程、防务电子、船舶业务、招标业务、展览广告及现代物流等多个领域。国际贸易是公司的传统主营业务。截至2009年底，累计进出口额达451.2亿美元。公司是商务部认定的A类援外物资企业，并已连续两年成为中国政府援外项目中机电产品类援外项目的第一名。</p>
+    <a href="lianxiwomen.html" class="connect-a">联系我们 > ></a>
+</div>
+<!--新闻中心-->
+<div class="container-fluid">
+    <p class="gycp-tit">新闻中心</p>
+    <p class="gycp-eng">News center</p>
+    <p class="gycp-jie">公司业务范围涉及国际贸易、海外工程、防务电子、船舶业务、招标业务、展览广告及现代物流等多个领域</p>
+    <div class="news-img">
+        <a href="xinwenzhongxin.html"><img src="img/news/news1.jpg" alt=""/></a>
+    </div>
+    <p class="news-tit"><a href="xwzx_1.html">我司出口首超5亿美元大关</a></p>
+    <p class="news-time">2017-08-27</p>
+    <p class="news-jie">西安**公司的统计口径，前11月，全公司进出口总额已突破5.5亿美元，达到55852.49万美......</p>
+    <p class="news-tit"><a href="xwzx_2.html">我司再度成功交付两艘新船</a></p>
+    <p class="news-time">2017-08-27</p>
+    <p class="news-jie">在全球船舶业遭受国际性金融危机冲击而陷入低迷的 形势下，我司船舶业务逆势而动，捷报频传。</p>
+<!--第二段-->
+    <div class="news-img">
+        <a href=""><img src="img/news/news2.jpg" alt=""/></a>
+    </div>
+    <p class="news-tit"><a href="xwzx_3.html">我国外贸稳步增长</a></p>
+    <p class="news-time">2017-08-27</p>
+    <p class="news-jie">从5月份的出口数据来看，欧债危机对我国出口影响小于预期，这说明我国出口恢复比市场预期要好，但未......</p>
+    <p class="news-tit"><a href="">人民币对美元汇率中间价突破6.80创5年来新高</a></p>
+    <p class="news-time">2017-08-27</p>
+    <p class="news-jie">北京６月２２日电 ２２日是中国人民银行重申汇改后的第二个交易日，人民币汇率中间价一改昨日波澜不......</p>
+</div>
+<!--底部区域-->
+<div class="container-fluid dibu">
+   <div class="dibu-item">
+       <ul class="list-unstyled dibu-ul">
+           <li class="dibu-li"><strong><a href="index.html">网站首页</a></strong></li>
+           <li class="dibu-li"><strong><a href="guanyuwomen.html">关于我们</a></strong></li>
+           <li class="dibu-li"><strong><a href="gongyinchanpin.html">供应产品</a></strong></li>
+           <li class="dibu-li"><strong><a href="xinwenzhongxin.html">新闻中心</a></strong></li>
+           <li class="dibu-li"><strong><a href="yewufanwei.html">业务范围</a></strong></li>
+           <li class="dibu-li"><strong><a href="lianxiwomen.html">联系我们</a></strong></li>
+       </ul>
+       <p class="dibu-con"><strong>联系我们</strong></p>
+       <p class="tel">电话：400-000-XXXX   /  (021)-1234578XXX</p>
+       <p class="dibu-add">地址：中国上海市xxx区xxx路12号某某大厦5层5xx室 <br/> 邮箱：123456XXXX@gmail.com​</p>
+   </div>
+    <p class="dibu-copy">Copyright © 2009-2011,www.xxxxxx.com,All rights reserved <br/> 沪ICP备XXXXXX号 未经同意，不得转载</p>
+</div>
+</body>
+</html>

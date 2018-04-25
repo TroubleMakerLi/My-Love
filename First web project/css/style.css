@@ -1,0 +1,263 @@
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.chengshi a{
+    color: blue;
+}
+.fixeddaohang{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    border-bottom: solid 2px #564A94;
+}
+.titlesmall{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.denglu{
+    cursor: pointer;
+    text-decoration: none;
+}
+.imgqian{
+    position: absolute;
+    display: block;
+}
+.imgshen{
+    position: absolute;
+    display: none;
+}
+.titlename{
+    width: 180px;
+    line-height: 35px;
+    display: inline-block;
+}
+.title_word{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.daohang{
+    line-height: 80px;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 24px;
+    padding-top: 10px;
+}
+.danghang>a{
+    color: black;
+}
+.daohang>a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.blue{
+    color: blue;!important;
+}
+.bannershouye>li{
+     width: 33%
+     float: left;
+ }
+.bannershouye>li>img{
+    width: 100%;
+}
+.banner>li{
+    width: 100%;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+.samlldaohang>li{
+    float: left;
+    margin-left: 80px;
+    font-size: 18px;
+}
+.up{
+    margin-top: -130px;
+}
+.zhuti{
+    width: 287px;
+    height: 500px;
+    border: solid 1px goldenrod;
+    float: left;
+}
+.youshi{
+    width: 126px;
+    height: 300px;
+    float: left;
+    margin-left: 95px;
+    margin-top: 50px;
+    color: white;
+}
+.youshi>span{
+    display: block;
+    width: 96px;
+    line-height: 30px;
+    margin: 24px 15px;
+    text-align: center;
+}
+.dingzhi1,.dingzhi2,.dingzhi3{
+    width: 400px;
+    height: 480px;
+    float: left;
+    position:relative;
+    overflow: hidden;
+}
+.dingzhi1>img,.dingzhi2>img,.dingzhi3>img{
+    position: absolute;
+}
+.liucheng{
+    float: left;
+    margin-left: 100px;
+    margin-top: 120px;
+    font-size: 16px;
+}
+.xianlu>li{
+    display: block;
+    width: 240px;
+    height: 60px;
+    background: silver;
+    float: left;
+    cursor: pointer
+}
+.xianlu>li>span{
+    line-height: 60px;
+    font-size: 18px;
+}
+.remen{
+    width: 285px;
+    height: 280px;
+    border: solid 1px #EEEEEE;
+    float: left;
+    cursor: pointer;
+}
+.youji{
+    margin-top: 55px;
+}
+.youji>li{
+    float: left;
+    width: 392px;
+    height: 440px;
+    border: solid 1px silver;
+}
+.youji a{
+    text-decoration: none;
+}
+.youji a:hover{
+    color: blue;
+}
+.youji>li>a>img{
+    width: 390px;
+    height: 300px;
+}
+.youji span{
+    line-height: 24px;
+}
+.xinxi{
+    width: 120px;
+    height: 300px;
+    margin-left: 40px;
+    float: left;
+}
+.xinxi>ul>li{
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.xinxi a{
+    color: #999999;
+}
+.xinxi a:hover{
+    color: white;
+    text-decoration: none;
+}
+.tubiao{
+    width: 96px;
+    height: 36px;
+    float: left;
+    margin-left: 163px;
+}
+.tubiao>img{
+    width: 100%;
+    height: 100%;
+}
+/*侧边栏*/
+.cebianlan>li{
+    width: 42px;
+    height: 80px;
+}
+.cebianlan>li:hover{
+    background-color: #ffb74d;
+}
+.dsiplay{
+    display: none;
+}
+/*度假路线*/
+.djlx-dh{
+    cursor: pointer;
+}
+.djlx-dh>span{
+    display: inline-block;
+    text-align: center;
+    height: 26px;
+    padding: 0 6px;
+    margin: 2px 10px;
+}
+.fanye>span{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: solid 1px black;
+    display: inline-block;
+}
+
+
+/*关于我们*/
+.gywm-gundong{
+    width: 1500px;
+    height: 230px;
+}
+.gywm-gundong>li{
+    width: 256px;
+    height: 230px;
+    border: solid 1px silver;
+    float: left;
+}
+
+
+/*改变背景色的样式*/
+.beijing{
+    display: inline-block;
+    text-align: center;
+    height: 26px;
+    color:white;
+    margin: 2px 0;
+    background-color: #564A94;
+    padding: 0 6px
+}
+/*度假路线页面排序通用悬浮变色*/
+.paixuhoverl:hover,.paixuhoverr:hover{
+    background-color: #f8f8f8;
+}
+/*关于我们环形轮播*/
+.block{
+    width: 1200px;
+    height: 400px;
+    border: solid 1px red;
+    position: relative;
+}
+.smallimage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 5px black;
+    transition: all 0.5s linear;
+}

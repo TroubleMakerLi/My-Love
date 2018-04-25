@@ -1,0 +1,54 @@
+/*标题区*/
+.topzi{
+    margin-top: 2rem;
+    font-size: 20px;
+    color: #2DB0F4;
+    text-align: center;
+}
+.english{
+    text-align: center;
+}
+.yw_jieshao{
+    width: 96%;
+    margin: 0 auto;
+    height: 44px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+/*公司介绍区域*/
+.ywfw-item{
+    width: 94%;
+    margin-left: 3%;
+    line-height: 2rem;
+    font-size: 12px;
+    color: #888888;
+}
+/*展示区*/
+.zhanshiqu{
+    width: 100%;
+    height: 45rem;
+    background-color: #F7F7F7;
+    margin-top: 2rem;
+}
+.zsq-img-kuang1,.zsq-img-kuang2,.zsq-img-kuang3,.zsq-img-kuang4,.zsq-img-kuang5,.zsq-img-kuang6{
+    width: 100%;
+    height: 18rem;
+    overflow: hidden;
+}
+.zsq-img1,.zsq-img2,.zsq-img3,.zsq-img4,.zsq-img5,.zsq-img6{
+    width: 100%;
+    margin-left: -800px;
+}
+.yw-h{
+    padding-left: 1rem;
+    margin-top: 1.6rem;
+}
+.zsq-item{
+    width: 94%;
+    margin-left: 3%;
+    line-height: 2rem;
+    font-size: 12px;
+    margin-top: 2rem;
+}

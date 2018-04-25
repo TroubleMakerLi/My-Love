@@ -1,0 +1,140 @@
+/*标题区*/
+.gycp-tit{
+    text-align: center;
+    font-size: 20px;
+    color: #1AA0E8;
+    margin-top: 2rem;
+}
+.gycp-eng{
+    text-align: center;
+    font-size: 12px;
+    color: #AAAAAA;
+}
+.gycp-jie{
+    width: 96%;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 2rem;
+    text-align: center;
+}
+.btnblock{
+    width: 15.5rem;
+    height: 2.7rem;
+    margin: 0 auto;
+}
+.news-btn{
+    width: 7.5rem;
+    height: 2.7rem;
+    background-color: #1AA0E6;
+    display: inline-block;
+    margin-top: 1.3rem;
+}
+.news-btn a{
+    width: 100%;
+    height: 100%;
+    line-height: 2.7rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+/*详细新闻区*/
+.newsconnect{
+    width: 100%;
+    height: 45rem;
+    margin-top: 3rem;
+}
+.newsconnect>li{
+    width: 100%;
+    height: 7rem;
+    border-bottom: 1px solid #6F716F;
+    padding-left: 1rem;
+}
+.xinwen-tit{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.xinwen-time{
+    color: #929292;
+    font-size: 12px;
+    display: block;
+    margin: 0.3rem 0;
+}
+.xinwen-item{
+    color: #6F716F;
+    font-size: 12px;
+}
+/*翻页区*/
+.fanye{
+    width: 60%;
+    height: 3rem;
+    margin:  3rem auto 0;
+}
+.fy-arrow{
+    width: 14%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    line-height: 2rem;
+    font-size: 26px;
+    float: left;
+    text-align: center;
+    border: solid 1px black;
+    margin-left: 6%;
+}
+.fy-spannum{
+    width: 14%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    line-height: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    border: solid 1px black;
+    margin-left: 6%;
+}
+.fy-bg{
+    background-color: black;
+    color: white;
+}
+.arrow-bg{
+    border: solid 1px silver;
+    color: #d9d9d9;
+}
+
+/*新闻区1*/
+.item-contant{
+    width: 100%;
+    margin-top: 3rem;
+}
+.content-tit{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.content-from{
+    text-align: center;
+}
+.content-div{
+    width: 99%;
+    margin: 0 auto;
+    border: solid 1px #E5E5E5;
+    font-size: 12px;
+    color: #868686;
+}
+.content-p{
+    width: 96%;
+    margin-left: 2%;
+    font-size: 14px;
+    margin-top: 1rem;
+    line-height: 1.8rem;
+}
+.content-fy{
+    margin-top: 3rem;
+}
